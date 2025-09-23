@@ -4,6 +4,6 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/', // or '/' depending on your routing and folder structure
+  base: '/CICD_HOSPITAL_MANEGEMENT_DEPLOY', // or '/' depending on your routing and folder structure
 })
 
