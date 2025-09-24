@@ -37,6 +37,7 @@ nav .logo a {
   color: #ffffff; /* White text */
   text-decoration: none;
   letter-spacing: 1px;
+  margin-right:2px;
 }
 
 /* Navigation Links */
