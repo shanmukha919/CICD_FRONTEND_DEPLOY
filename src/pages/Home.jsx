@@ -1,9 +1,10 @@
 import * as React from "react";
 // import Header from "./home/Header";
 // import Navbar from "./home/Navbar";
-import MainVisual from "./HOME/MainVisual";
-import InfoSection from "./HOME/InfoSection";
-import AboutSection from "./HOME/AboutSection";
+// Correct imports for other components:
+import Navbar from "./HOME/Navbar";
+import NewsArticle from "./HOME/NewsArticle";
+import ServiceCard from "./HOME/ServiceCard";
 import ServicesSection from "./HOME/ServicesSection";
 
 import DoctorsSection from "./HOME/DoctorsSection";
