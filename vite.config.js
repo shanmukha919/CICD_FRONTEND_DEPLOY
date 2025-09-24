@@ -5,5 +5,11 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: '/CICD_HOSPITAL_MANEGEMENT_DEPLOY', // or '/' depending on your routing and folder structure
+  server: {
+    proxy: {
+      '/api': 'http://localhost:8091'
+    }
+  }
 })
+
 
